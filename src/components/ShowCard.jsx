@@ -10,7 +10,7 @@ function ShowCard({ name, image, genres, id }) {
             <div className='px-3 pt-1'>
                 <h3 className=' font-medium'>{name}</h3>
             </div>
-            <div className='flex gap-2 px-3 pb-1 w-[100%]'>
+            <div className='flex gap-2 px-3 pb-1 w-[100%] overflow-hidden'>
                 {
                     genres?.map((genre, i) => (<p key={i}> {genre}</p>))
                 }
