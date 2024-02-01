@@ -27,18 +27,7 @@ function Footer() {
                 <Link className="link link-hover">Privacy policy</Link>
                 <Link className="link link-hover">Cookie policy</Link>
             </nav>
-            <form className=' text-white'>
-                <h6 className="footer-title">Newsletter</h6>
-                <fieldset className="form-control w-80">
-                    <label className="label">
-                        <span className="label-text text-white">Enter your email address</span>
-                    </label>
-                    <div className="join">
-                        <input type="text" placeholder="username@site.com" className="input input-bordered join-item" />
-                        <button className="btn bg-red-600 join-item text-white">Subscribe</button>
-                    </div>
-                </fieldset>
-            </form>
+
         </footer>
     )
 }
